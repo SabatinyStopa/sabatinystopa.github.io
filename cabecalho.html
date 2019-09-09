@@ -9,20 +9,26 @@
 <body>
     <h1>Data pra cabeçalho</h1>
     <button onclick="MontaCabecalho()">Clica pra funcionar</button>
-    <p id="head"></p>
+    <p id="head"></p>   
+    
     <script>
         var date = new Date();
         
-        function MontaCabecalho(){
-
-            document.getElementById("head").innerHTML = date.getDay()+1 +  "/" + date.getMonth()+1 + "/" + date.getFullYear();
+        function MontaCabecalho(){            
+            document.getElementById("head").innerHTML = MakeFormatedText();
         }
-        function MontaDataFormatada(){
-            Day = (date.getDay()+1).toString();
+        function MakeFormatedDate(){
+            Day = (date.getDate()).toString();
             Month = (date.getMonth()+1).toString();
             Year = date.getFullYear().toString();
-            var FormatedDate = Day + "/" Month + "/" Year + "/";
+            var FormatedDate = Day.concat("/",Month,"/",Year);
+            return FormatedDate;
         }
+        function MakeFormatedText(){
+            var DataText = "Data "
+            var FormatedText = DataText.concat(MakeFormatedDate(),"//Fim da data ",MakeFormatedDate(),"\\\\"); 
+            return FormatedText;
+        }        
     </script>
 </body>
 </html>
