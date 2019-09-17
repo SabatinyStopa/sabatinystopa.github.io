@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cortador de linhas</title>
+</head>
+<body>
+    <h1>Cole o texto abaixo:</h1>
+    <textarea type="text" id="texto" style="width: 60%;"></textarea><br>
+    <button onclick="CortaLinhas()">Corta as linhas</button>
+    <h2>resultado</h2>
+    <p id="resultado"></p>
+<script>
+    function CortaLinhas(){
+        let textoCopiado = document.getElementById("texto").value;
+        textoCopiado = textoCopiado.replace("\n"," ");
+        document.getElementById("resultado").innerHTML = textoCopiado;
+    }
+</script>
+</body>
+</html>
