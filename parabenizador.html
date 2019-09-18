@@ -9,11 +9,17 @@
 </head>
 <body>
     
-    <h1>Aqui são geradas parabéns automático</h1>
+    <h1>Aqui são geradas mensagens de parabéns automaticamente</h1>
     <h2>Coloca o nome do parabenizado</h2>
     <input id="nomeDoDesgracado">
-    <button onclick="CreateMessageParabens()">Parabenizar!</button>
+    <h2>Seleciona o tipo de mensagem de parabéns</h2>
+    <select id="opcoes" name="opcoes">
+        <option value="frases">Frases</option>
+        <option value="textosAmiga">Textos para amiga</option>
+    </select>
 
-    <p id="message"></p>
+    <button onclick="CreateCongratsMessage()">Parabenizar!</button>
+
+    <p id="message" style="width: 50%;"></p>
 </body>
 </html>
