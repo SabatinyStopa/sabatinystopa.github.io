@@ -1,5 +1,0 @@
-Orcs - andam para frente
-Vermelhos - atiram e andam para frente
-Azuis - atiram e andam para frente e quando chegam na metade da tela ficam desçendo e subindo
-Branco - Anda para frente e na diagonal
-Cinza - Anda para frente e na diagonal atirando

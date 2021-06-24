@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+}
+
+.redMiniHabilitiesLabel{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.portifolioButton{
+    height: 15%;
+    margin-top: 15%;
+}
+
+
+.habilitiesContainer{
+    padding-top: 500px;
+}
+
+.aboutMe{
+    padding-top:  150px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.initialPadding{
+    padding-top: 15%;
+}
+
+.bigNamePadding{
+    padding-top: 23%;
+    padding-bottom: 500px;
+}
+
+.justfyText{
+    text-align: justify;
+}
+
+.redMiniLabel{
+    color: red;
+    font-family: 'Train One', cursive;
+    font-size: 50px;
+}
+
+.redLabel{
+    color: red;
+    font-family: 'Train One', cursive;
+    font-size: 90px;
+}

@@ -1,123 +1,143 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>Sabatiny Stopa</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
-
-    <!-- Bootstrap core CSS -->
-<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <link href="jumbotron.css" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My little World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <script src="PortifolioScroll.js"></script>
 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="https://www.facebook.com/calamaribr">Facebook</a>
-              <a class="dropdown-item" href="https://twitter.com/calamarizin">Twitter</a>
-              <a class="dropdown-item" href="#" onclick="alert('Meu email ----->>> sabatinystopa@gmail.com <<<-----')">Email</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#myLife">Minha Vida</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#habilities">Habilidades</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#portifolio">Portifolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programas inutilmente uteis</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="parabenizador.html">Parabenizador</a>
+              <a class="dropdown-item" href="cortalinha.html">Cortador de linhas</a>
+              <a class="dropdown-item" href="https://tetris.com/play-tetris"> Tetris...</a>
+              <a class="dropdown-item" href="https://www.chess.com/">Xadreizin</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <img class="float-start initialPadding" src="Images/LinesEsquerda.png" alt="Icon" >
+    <img class="float-end initialPadding" src="Images/LinesDireita.png" alt="Icon" >
+    <div class="container-fluid bigNamePadding">
+      <div class="row mx-auto">
+        <div class="col">
+          <h1 class="redLabel d-flex justify-content-center" >SABATINY GABRIEL STOPA</h1>
+          <h2 class="d-flex justify-content-center pt-2">DESENVOLVEDOR DE JOGOS DIGITAIS E SOFTWARES</h2>
+        </div>
+      </div>
+    </div>
+
+    <p id="myLife"></p>
+
+    <div class="container-fluid aboutMe">
+      <div class="row">
+        <div class="col">
+          <h1 class="redMiniLabel">BEM VINDO A MINHA VIDA!</h1>
+          <p class="justfyText pt-3">
+            Nasci em 05/11/96 na cidade de Limeira-SP. Sou formado em Jogos Digitais pela FATEC de Americana.
+            Desde pequeno, sempre amei tecnologia, ganhei meu primeiro computador quando eu era bem jovem e desde
+            então sempre tive muita curiosidade para aprender sobre aquela máquina. Aprender para mim é algo essencial,
+            assim como desenvolver minhas habilidades.<br><br>      
+            Além disso, eu amo escrever códigos, colocar uma ideia em prática e simplesmente a fazer existir por isso
+            sou apaixonado por programação. Outro fator que sempre me acompanhou pela vida foram os jogos!!! Foi a partir
+            dessa junção que apareceu meu interesse em desenvolver jogos digitais.<br><br>
+            Não gosto de ficar parado! Sempre estou pensando em novos projetos e em coisas novas para desenvolver, afinal 
+            é isso que mais adoro fazer.  Espero que goste de meus projetos e divirta-se jogando!!!         
+          </p>
+        </div>
+        <div class="col">
+          <img class="float-end mt-5" src="Images/Foto.png" alt="Icon" width="500" height="500">
+        </div>
+      </div>
+    </div>
+
+    <div class="container habilitiesContainer">
+        <div class="row justify-content-md-center">
+            <h1 class="redLabel d-flex justify-content-center">HABILIDADES</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img class="rounded-circle mx-auto d-block" src="Images/Icon1.png" alt="Icon" width="250" height="250">
+            <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLVEDOR BACK-END</h2>
+            <p class="d-flex justify-content-center text-center">Especialista em C#, Python, Ruby,<br> Java e outras</p>
           </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programas inutilmente uteis</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="parabenizador.html">Parabenizador</a>
-            <a class="dropdown-item" href="cortalinha.html">Cortador de linhas</a>
-            <a class="dropdown-item" href="https://tetris.com/play-tetris"> Tetris...</a>
+          <div class="col">
+            <img class="rounded-circle mx-auto d-block" src="Images/Icon2.png" alt="Icon" width="250" height="250">
+            <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLDEDOR DE JOGOS</h2>
+            <p class="d-flex justify-content-center text-center">Experiência em Unity 2D e 3D</p>
           </div>
-        </li>
-      </ul>
+          <div class="col">
+            <img class="rounded-circle mx-auto d-block" src="Images/Icon3.png" alt="Icon" width="250" height="250">
+            <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLVEDOR DE APLICATIVOS</h2>
+            <p class="d-flex justify-content-center text-center">Desenvolvimento de aplicativos<br> para Celulares Android</p>
+          </div>
+        </div>
+        <p id="habilities"></p>
+        <div class="row">
+            <div class="col">
+              <img class="rounded-circle mx-auto d-block" src="Images/Icon4.png" alt="Icon" width="250" height="250">
+              <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLVEDOR FRONT-END</h2>
+              <p class="d-flex justify-content-center text-center">Conhecimento em JavaScript, HTML5, CSS, BootStrap e jQuery</p>
+            </div>
+            <div class="col">
+              <img class="rounded-circle mx-auto d-block" src="Images/Icon5.png" alt="Icon" width="250" height="250">
+              <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLDEDOR DE SOFTWARES</h2>
+              <p class="d-flex justify-content-center text-center">Desenvolvedor Full Stack</p>
+            </div>
+            <div class="col">
+              <img class="rounded-circle mx-auto d-block" src="Images/Icon6.png" alt="Icon" width="250" height="250">
+              <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">MODELADOR 3D</h2>
+              <p class="d-flex justify-content-center text-center">Criação de personagens e objetos 3D. Experiência em Blender</p>
+            </div>
+        </div>
     </div>
-  </nav>
 
-<main role="main">
+    <p id="portifolio"></p>
 
-  <div class="jumbotron">
-    <div class="container">
-      <h1 class="display-3" style="text-align: center;">Sabatiny Gabriel Stopa</h1>
-        <p>Olá, eu sou programador e desenvolvedor de jogos Indie. Minhas inspirações são bem aleatórias, gosto de ter ideias diferentes, criar soluções e entreterimento de alguma maneira. Amo tecnologia, adoro testar apps e buscar novos conhecimentos na área. Sou o tipo de programador que cria projetos simplesmente para testar uma ideia nova e aprender alguma coisa nova. </p>
-    </div>
-  </div>
-  <div class="container">
-    <h2 style="text-align: center;">Welcome to my life</h2>
-    <hr>
-    <div class="row">
-        <p> Nasci na cidade de Limeira-SP. Atualmente estudo jogos digitais na FATEC de americana. <br>
-            Desde pequeno, sempre amei tecnologia, ganhei meu primeiro computador quando eu era bem jovem e desde então sempre tive muita curiosidade para aprender sobre aquela máquina. Aprender pra mim é algo essencial, amo aprender e desenvolver minhas habilidades.<br>
-            Meus gostos musicais são bem peculiares, eu amo heavy metal, porém ouço outros gêneros musicais como música clássica por exemplo. Geralmente eu ouço alguma música enquanto eu escrevo algum código ou jogo vídeo game, então a música tem um peso grande em minha vida, sem música muita coisa seria sem graça. <br>
-            Além de tudo eu amo escrever código, desenvolver, colocar uma ideia em prática e simplesmente fazer algo existir, por isso amo programação. Minhas linguagens favoritas são: Python, C#, Ruby e Javascript. A primeira que eu aprendi foi Javascript, foi onde apareceu meu interesse em desenvolver jogos mesmo e onde comecei a criar um projeto de jogo que eu quero mudar algumas coisas até hoje.<br>
-            Sempre estou pensando em novos projetos e sempre quero desenvolver algo novo, afinal é isso que eu mais gosto de fazer. Se precisar de alguma coisa, pode me mandar um email, ou fale comigo de algum jeito. Bom, essa é a primeira vez que eu faço uma página falando sobre mim, então espero que goste de meus projetos e divirta-se jogando. Um belo dia!! </p>
-
-    </div>
-    <hr>
-  </div>
-
-  <div class="container">
-    <h2 style="text-align: center;">Apps</h2>
-    <hr>
-    <div class="row">
-      <div class="col-md-4">
-        <h2>Tatiny's Burguer</h2>
-        <img src="tatiny.png" class="img-thumbnail">
-        <p>Criei este jogo com muito carinho junto com a minha namorada. Você é o Chef de uma renomada hamburgueria 5 estrelas e deve agradar seus clientes montando os lanches na ordem indicada. O jogo é um desafio de memória, é bem simples e pode ser jogado por qualquer pessoa em qualquer lugar. *Por enquanto somente a versão para windos está disponível*</p>
-        <p><a class="btn btn-secondary" href="downloads/Tatiny's Burger.zip" role="button" download>Acessar &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Defensor da Torre</h2>
-        <img src="bob.png" class="img-thumbnail">
-        <p>Para este aqui eu tive a ideia enquanto eu treinava, eu queria muito criar um jogo no estilo bullet hell, então o defensor da torre foi uma ótima experiência para que eu visse o que o esse tipo de jogo deveria ter para ficar interessante. Foi meu primeiro jogo em javascript puro. E no jogo você deve dizimar as hordas inimigas que se formam para invadir seu castelo rosa.</p>
-        <p><a class="btn btn-secondary" href="BobGame/bob.html" role="button">Acessar &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Find the Cure</h2>
-        <img src="find_the_cure.jpg" class="img-thumbnail">
-        <p>Esse jogo era uma atividade que meu professor de computação gráfica pediu para fazermos utilizando armários. Então, nós modelamos alguns armários e criamos este jogo. Nesse jogo você precisa encontrar as medicações espalhadas pelo mapa e abrir todos os armários utilizando as chaves que estarão espalhadas também. *Por enquanto somente a versão para windos está disponível*</p>
-        <p><a class="btn btn-secondary" href="downloads/FindTheCure.zip" role="button" download>Acessar &raquo;</a></p>
+    <div class="container-fluid aboutMe">
+      <h1 class="redLabel d-flex justify-content-center" style="padding-bottom: 200px;">Portifolio</h1>
+      <div class="row">
+          <a class="btn btn-danger col-1 portifolioButton" onclick="BackwardButton();">Voltar</a>
+          <div class="col">
+              <h1 class="redMiniLabel" id="title">Color And Seek</h1>
+              <p id="description" class="justfyText pt-3">
+                Leo é um camaleão um pouco diferente do restante de sua tribo, além de ter a coloração branca, ele não consegue mudar de cor devido a sua insegurança e timidez. Por conta disso, ele sai em uma aventura para encontrar as outras tribos de camaleões, na expectativa de que alguma delas possa ajudá-lo. Sua jornada não consiste apenas em uma busca pelas suas cores, mas também para encontrar a si mesmo         
+              </p>
+              <a class="btn btn-danger" id="gameLink" href="https://thaydaderio.itch.io/color-and-seek">Acessar Jogo</a>
+          </div>
+          <div class="col">
+            <img id="image" class="d-block w-100" width="400" height="400" src="Images/colorAndSeek.png">
+          </div>
+          <a class="btn btn-danger col-1 portifolioButton" onclick="ForwardButton();">Avançar</a>
       </div>
     </div>
 
-    <hr>
-
-  </div>
-
-</main>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
