@@ -27,15 +27,14 @@ var links = [
 
 var images = [
     "Images/colorAndSeek.png",
-    "Images/Diorama_Quadrado.png",
-    "Images/Mummy_Quadrado.png",
-    "Images/logoGreat.png",
+    "Images/diorama.png",
+    "Images/mummy.png",
+    "Images/greatBurger.png",
     "Images/FindTheCure_Quadrado.png",
     "Images/DefensorDaTorre.png"
 ]
 
 var currentCounter = 0;
-
 
 function ForwardButton(){
     currentCounter++;
