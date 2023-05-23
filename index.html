@@ -1,159 +1,301 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My little World</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sabatiny Stopa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
     <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    <script src="PortifolioScroll.js"></script>
-
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#myLife">Minha Vida</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#habilities">Habilidades</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#portifolio">Portifolio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Programas inutilmente uteis</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="parabenizador.html">Parabenizador</a>
-              <a class="dropdown-item" href="cortalinha.html">Cortador de linhas</a>
-              <a class="dropdown-item" href="https://tetris.com/play-tetris"> Tetris...</a>
-              <a class="dropdown-item" href="https://www.chess.com/">Xadreizin</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  
-    <img class="float-start initialPadding" src="Images/LinesEsquerda.png" alt="Icon" >
-    <img class="float-end initialPadding" src="Images/LinesDireita.png" alt="Icon" >
-    <div class="container-fluid bigNamePadding">
-      <div class="row mx-auto">
-        <div class="col">
-          <h1 class="redLabel d-flex justify-content-center" >SABATINY GABRIEL STOPA</h1>
-          <h2 class="d-flex justify-content-center pt-2">DESENVOLVEDOR DE JOGOS DIGITAIS E SOFTWARES</h2>
-        </div>
-      </div>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="Images/Foto.jpg" alt="" width="200" height="256">
+        <h1>Sabatiny Stopa</h1>
     </div>
-
-    <p id="myLife"></p>
-
-    <div class="container-fluid aboutMe">
-      <div class="row">
-        <div class="col">
-          <h1 class="redMiniLabel">BEM VINDO A MINHA VIDA!</h1>
-          <p class="justfyText pt-3">
-            Nasci em 05/11/96 na cidade de Limeira-SP. Sou formado em Jogos Digitais pela FATEC de Americana.
-            Desde pequeno, sempre amei tecnologia, ganhei meu primeiro computador quando eu era bem jovem e desde
-            então sempre tive muita curiosidade para aprender sobre aquela máquina. Aprender para mim é algo essencial,
-            assim como desenvolver minhas habilidades.<br><br>      
-            Além disso, eu amo escrever códigos, colocar uma ideia em prática e simplesmente a fazer existir por isso
-            sou apaixonado por programação. Outro fator que sempre me acompanhou pela vida foram os jogos!!! Foi a partir
-            dessa junção que apareceu meu interesse em desenvolver jogos digitais.<br><br>
-            Não gosto de ficar parado! Sempre estou pensando em novos projetos e em coisas novas para desenvolver, afinal 
-            é isso que mais adoro fazer.  Espero que goste de meus projetos e divirta-se jogando!!!         
-          </p>
-        </div>
-        <div class="col">
-          <img class="float-end mt-5" src="Images/Foto.png" alt="Icon" width="500" height="500">
-        </div>
-      </div>
+    <div class="container themed-container text-center">
+        <h1>My game development experience</h1>
     </div>
-
-    <div class="container habilitiesContainer">
-        <div class="row justify-content-md-center">
-            <h1 class="redLabel d-flex justify-content-center">HABILIDADES</h1>
-        </div>
-        <div id="habilities"  class="row">
-          <div class="col">
-            <img class="rounded-circle mx-auto d-block" src="Images/Icon1.png" alt="Icon" width="250" height="250">
-            <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLVEDOR BACK-END</h2>
-            <p class="d-flex justify-content-center text-center">Especialista em C#, Python, Ruby,<br> Java e outras</p>
-          </div>
-          <div class="col">
-            <img class="rounded-circle mx-auto d-block" src="Images/Icon2.png" alt="Icon" width="250" height="250">
-            <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLDEDOR DE JOGOS</h2>
-            <p class="d-flex justify-content-center text-center">Experiência em Unity 2D e 3D</p>
-          </div>
-          <div class="col">
-            <img class="rounded-circle mx-auto d-block" src="Images/Icon3.png" alt="Icon" width="250" height="250">
-            <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLVEDOR DE APLICATIVOS</h2>
-            <p class="d-flex justify-content-center text-center">Desenvolvimento de aplicativos<br> para Celulares Android</p>
-          </div>
-        </div>
-        <div class="row">
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
             <div class="col">
-              <img class="rounded-circle mx-auto d-block" src="Images/Icon4.png" alt="Icon" width="250" height="250">
-              <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLVEDOR FRONT-END</h2>
-              <p class="d-flex justify-content-center text-center">Conhecimento em JavaScript, HTML5, CSS, BootStrap e jQuery</p>
+                <h2 class="pb-2 border-bottom">Diorama builder</h2>
             </div>
             <div class="col">
-              <img class="rounded-circle mx-auto d-block" src="Images/Icon5.png" alt="Icon" width="250" height="250">
-              <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">DESENVOLDEDOR DE SOFTWARES</h2>
-              <p class="d-flex justify-content-center text-center">Desenvolvedor Full Stack</p>
+                <a href="https://store.steampowered.com/app/1370170/Diorama_Builder/?curator_clanid=35020302"
+                    class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/DioramaRef1.jpg">
+                </div>
             </div>
             <div class="col">
-              <img class="rounded-circle mx-auto d-block" src="Images/Icon6.png" alt="Icon" width="250" height="250">
-              <h2 class="redMiniHabilitiesLabel d-flex justify-content-center">MODELADOR 3D</h2>
-              <p class="d-flex justify-content-center text-center">Criação de personagens e objetos 3D. Experiência em Blender</p>
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/DioramaRef2.jpg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/DioramaTrailer.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
     </div>
-
-    <p id="portifolio"></p>
-
-    <div class="container-fluid aboutMe">
-      <h1 class="redLabel d-flex justify-content-center" style="padding-bottom: 200px;">Portifolio</h1>
-      <div class="row">
-          <a class="btn btn-light col-1 portifolioButton" onclick="BackwardButton();"><img class="img-fluid" src="Images/setaEsquerda.png"></a>
-          <div class="col">
-              <h1 class="redMiniLabel" id="title">Color And Seek</h1>
-              <p id="description" class="justfyText pt-3">
-                Leo é um camaleão um pouco diferente do restante de sua tribo, além de ter a coloração branca, ele não consegue mudar de cor devido a sua insegurança e timidez. Por conta disso, ele sai em uma aventura para encontrar as outras tribos de camaleões, na expectativa de que alguma delas possa ajudá-lo. Sua jornada não consiste apenas em uma busca pelas suas cores, mas também para encontrar a si mesmo         
-              </p>
-              <a class="btn btn-light" id="gameLink" href="https://thaydaderio.itch.io/color-and-seek">Acessar Jogo</a>
-          </div>
-          <div class="col">
-            <img id="image" class="d-block w-100" width="400" height="400" src="Images/colorAndSeek.png">
-          </div>
-          <a class="btn btn-light col-1 portifolioButton" onclick="ForwardButton();"><img class="img-fluid" src="Images/setaDireita.png"></a>
-      </div>
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h2 class="pb-2 border-bottom">The awakening of the mummies</h2>
+            </div>
+            <div class="col">
+                <a href="https://store.steampowered.com/app/1593410/The_Awakening_of_Mummies/?curator_clanid=35020302"
+                    class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/Mummies1.jpg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/Mummies2.jpg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/MummyTrailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="footer">
-      <h1 class="row d-flex justify-content-center" style="padding-top: 20px; padding-bottom: 20px;">CONTATO</h1>
-      <div class="row justify-content-center">
-        <a class="col-1 d-flex justify-content-center" href="https://www.linkedin.com/in/sabatiny-stopa-628007138"><img src="Images/linkedin.png"></a>
-        <a class="col-1 d-flex justify-content-center" href="https://github.com/SabatinyStopa"><img src="Images/github.png"></a>
-        <a class="col-1 d-flex justify-content-center" href="https://www.facebook.com/calamaribr"><img src="Images/facebook.png"></a>
-      </div>
-      <div class="d-flex justify-content-center">
-        <img src="Images/whats.png" width="30" height="30">
-        <p>(19) 9 9502-2933</p>
-      </div>
-      <div class="d-flex justify-content-center">
-        <img src="Images/carta.png" width="35" height="30">
-        <p>sabatinystopa@gmail.com</p>
-      </div>
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h2 class="pb-2 border-bottom">Hamster On Rails</h2>
+            </div>
+            <div class="col">
+                <a href="https://store.steampowered.com/app/1722660/Hamster_on_Rails/?curator_clanid=35020302"
+                    class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/HamsterOnRails1.jpg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/HamsterOnRails2.jpg">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/HamsterOnRailsTrailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h2 class="pb-2 border-bottom">Great Burger</h2>
+            </div>
+            <div class="col">
+                <a href="https://play.google.com/store/apps/details?id=com.SpaceOctopusStudio.GreatBurger"
+                    class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/Greatburger1.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/Greatburger2.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/GreatBurger.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h2 class="pb-2 border-bottom">Find the cure</h2>
+            </div>
+            <div class="col">
+                <a href="downloads/FindTheCure.zip" class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/FindTheCure1.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/FindTheCure2.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Cure.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h2 class="pb-2 border-bottom">Color Seek</h2>
+            </div>
+            <div class="col">
+                <a href="https://thaydaderio.itch.io/color-and-seek" class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/ColorAndSeek1.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/ColorAndSeek2.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Color.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <h2 class="pb-2 border-bottom">Red tower</h2>
+            </div>
+            <div class="col">
+                <a href="BobGame/bob.html" class="btn btn-light">Access Game</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/BobGame1.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <img src="images/BobGame2.png">
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/BobGame.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Random stuff</h2>
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Overwatch.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Musics.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Piano.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Shield.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Jobchallenge.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Aldo.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-cover overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <video controls>
+                        <source src="Videos/Flock.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="https://github.com/SabatinyStopa" target="_blank"
+                        class="nav-link px-2 text-body-secondary"><img width="32" height="32"
+                            src="Images/github.png"></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/sabatiny-stopa-628007138/" target="_blank"
+                        class="nav-link px-2 text-body-secondary"><img width="32" height="32"
+                            src="Images/linkedin.png"></a></li>
+            </ul>
+            <p class="text-center">sabatinystopa@gmail.com</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
